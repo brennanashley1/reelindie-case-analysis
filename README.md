@@ -59,6 +59,33 @@ Using the World Bank API (`wbgapi`), I pulled internet-use rates and population 
 
 ---
 
+![Spanish-speaking vs everyone else](charts/deck/c7b_spanish.png)
+
+---
+
+## Charts from the presentation
+
+**Customer types don't last.** Four k-means segments (left) faded back to average in later weeks (right).
+
+<p>
+  <img src="charts/deck/c3_segments_half.png" width="49%" alt="Four k-means customer segments">
+  <img src="charts/deck/c3_fade.png" width="49%" alt="Top early spenders fade from 39% to 29% of revenue">
+</p>
+
+**Customers don't choose by price.** Films rent about equally at every price, so revenue per film rises with price.
+
+![Rentals and revenue per film by price](charts/deck/c4_price.png)
+
+**The hidden 30% of revenue.** Shorter rental windows drive the $1-a-day extension fee.
+
+![Share of rentals that paid to extend](charts/deck/c5_extensions.png)
+
+**Show filmmakers what they earn.** Filmmaker earnings per title, by genre, at the 75% share.
+
+![Filmmaker earnings per title by genre](charts/deck/c6_genres.png)
+
+---
+
 ## Cross-checked in Microsoft Access
 
 The key numbers were rebuilt as Access SQL queries ([`access/ReelIndie_Access_Queries.sql`](access/ReelIndie_Access_Queries.sql)) and match Python. The only difference is a single never-returned $3.99 rental that Access excludes: $20,192 in Access vs $20,195 in Python.
