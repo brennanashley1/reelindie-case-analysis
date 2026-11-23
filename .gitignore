@@ -1,0 +1,6 @@
+# Course data is not shared publicly
+data/*.csv
+data/*.accdb
+*.accdb
+__pycache__/
+.venv/
